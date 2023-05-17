@@ -5,7 +5,7 @@ namespace LibraryService.Services
 {
     public class BookService : IBookService
     {
-        public static Book[] FakeData = new Book[5]; 
+        public static Book[] FakeData = new Book[5]; //misuftavebs bazas
         int counter = 0;
 
         public string BookAdd(Book book)
